@@ -1,0 +1,402 @@
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: #5A854C;
+    padding: 10px;
+}
+.sides{
+    width:33%;
+    float: left;
+}
+.logo{
+    color: white;
+}
+input{
+    padding: 5px;
+    width: 80%;
+}
+button{
+    padding: 5px 15px;
+    background-color: rgb(7, 48, 7);
+    color: white;
+}
+.btns {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color:#083214;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: lightgreen;
+  }
+  
+
+  .sell-plants-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    border-bottom: 5px dotted #367330;
+  }
+  
+  .sell-plants-content {
+    display: flex;
+    width: 80%;
+    color: grey;
+  }
+  
+  .sell-plants-text {
+    width: 80%;
+    padding-right: 20px;
+  }
+  
+  .sell-plants-text p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .big-button-1 {
+    padding: 13px 30px;
+    background-color: #367330;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .big-button-2 {
+    padding: 13px 30px;
+    background-color: white;
+    border: 2px solid #367330;
+    color: #367330;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .big-button-1:hover {
+    background-color: lightgreen;
+    color: #367330;
+  }
+  .big-button-2:hover {
+    background-color: lightgreen;
+  }
+  
+  .sell-plants-image {
+    width: 50%;
+  }
+  
+  .sell-plants-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  .heading{
+    color: red;
+  }
+  h4{
+    color: #5A854C;
+  }
+
+
+  .checkBestTree {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px; 
+}
+.checkBestTree h1{
+    color: #083214;
+}
+.cardSection{
+  height: 400px;
+}
+
+.interesting{
+  background-color: #54884F;
+  color: white;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.product h1{
+  color: #54884F;
+}
+.para{
+  width: 60%;
+  float: left;
+}
+.image{
+  width: 40%;
+}
+.image img{
+  height: 100%;
+  width: 100%;
+  float: right;
+}
+.product {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.product h1 {
+  color: #54884F;
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+}
+
+.mydiv {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.para {
+  width: 60%;
+  padding: 0 20px;
+}
+
+.image {
+  width: 40%;
+}
+
+.image img {
+  max-width: 100%; 
+  height: auto;
+}
+.catagory{
+  color: #54884F;
+}
+.mydiv {
+  border: 2px solid #ccc; 
+  transition: border 0.3s ease;
+}
+
+.mydiv:hover {
+  border-color: transparent;
+  border-top-color: #54884F; 
+  margin-bottom: 0; 
+}
+
+
+
+
+
+
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
